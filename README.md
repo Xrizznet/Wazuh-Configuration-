@@ -13,9 +13,22 @@ Never the less the proces of: Virtual-Machine-Storage-Expansion-Proces.I proceed
 
 <img width="1460" height="1066" alt="Screenshot 2026-07-05 225141" src="https://github.com/user-attachments/assets/d61d9d97-c296-419d-acb9-29959a4c6126" />
 
-## Issue 1:
+## Issue 1: Wazuh Credentials Login Failed
 I was excited that the installation finally worked . I was wrong , when I tried logging into the dash board the admin credentials provided did not work. I'm positive the credentials were entered correctly. 
 
 <img width="1384" height="1049" alt="Screenshot 2026-07-05 225920" src="https://github.com/user-attachments/assets/b625a175-57c0-43d8-af2b-f0c7418de881" />
+
+My first instinct was to update the system and retry the site. Which did not fix the issue and I not think was a bad decision because maybe the cached credentials were changed/ wiped when the update occured. 
+
+<img width="1538" height="637" alt="Screenshot 2026-07-05 233059" src="https://github.com/user-attachments/assets/0aa77db5-6438-4f93-b4a6-e7d9b3968f65" />
+
+<img width="1470" height="914" alt="Screenshot 2026-07-05 233844" src="https://github.com/user-attachments/assets/706d1f27-8871-423c-afef-a363f63d3705" />
+
+# Issue 2: Wazuh Dashboard 
+After I completed the update the dashboard would not load back up in the browser: I kept getting error: Unable to connect. Before I panicked I checked to see if I could ping the website, I could. 
+
+<img width="1477" height="859" alt="Screenshot 2026-07-05 235821" src="https://github.com/user-attachments/assets/e9fc0242-1ad4-4e7b-b855-376ecc8b2c7e" />
+
+
 
 
