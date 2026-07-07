@@ -29,6 +29,31 @@ After I completed the update the dashboard would not load back up in the browser
 
 <img width="1477" height="859" alt="Screenshot 2026-07-05 235821" src="https://github.com/user-attachments/assets/e9fc0242-1ad4-4e7b-b855-376ecc8b2c7e" />
 
+# Checklist: 
+- Check Services running
+- Ports listening correspond 
+- Check firewall rules inbound/outbound
+
+#  Services and Ports
+All services were running I checked the Indexer and Dashboard.  I checked them one by one though I did not screenshot each result. 
+
+<img width="1202" height="883" alt="Screenshot 2026-07-06 203548" src="https://github.com/user-attachments/assets/529d82df-34d0-4268-80da-0835cf0ef48e" />
+
+<img width="1337" height="837" alt="Screenshot 2026-07-06 193946" src="https://github.com/user-attachments/assets/2dac5da8-68f0-40bd-be0e-b2bf5f06e9f7" />
+
+Results confirmed the wazuh manager services were running and on ports 1514, 1515. I tested if the site would load without SSL using  then SSL , site still would not load and generated the same error message.  
+
+ ```bash
+sudo curl -k http://127.0.0.1:443
+```
+
+
+
+
+
+
+
+
 
 
 
