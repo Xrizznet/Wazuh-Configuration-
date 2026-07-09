@@ -41,11 +41,21 @@ All services were running I checked the Indexer and Dashboard.  I checked them o
 
 <img width="1337" height="837" alt="Screenshot 2026-07-06 193946" src="https://github.com/user-attachments/assets/2dac5da8-68f0-40bd-be0e-b2bf5f06e9f7" />
 
+# Firewall 
 Results confirmed the wazuh manager services were running and on ports 1514, 1515. I tested if the site would load without SSL using  then SSL , site still would not load and generated the same error message.  
 
  ```bash
 sudo curl -k http://127.0.0.1:443
 ```
+
+Seeing the return output that the firewall is skipping the rule so port 443 is already allowing incoming traffic on port 443. 
+
+## Final decision
+
+After numerous attempts of trying to fix the issuesI decided to just create another VM and restart the process of configuring  Wazuh on my network. I mad some changes this time around instead of using Ubuntu 22.04 I upgraded to 24.04. I also changed my GUI from XFCE to MATE, I felt its interface was better and already included platforms like firefox. It was a long journey but Wazuh manager has officially been set up. 
+
+<img width="644" height="761" alt="Screenshot 2026-07-09 035827" src="https://github.com/user-attachments/assets/2d2db229-e923-4d4d-b69c-a7296791f2be" />
+
 
 
 
