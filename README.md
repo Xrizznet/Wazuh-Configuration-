@@ -55,6 +55,8 @@ Seeing the return output that the firewall is skipping the rule so port 443 is a
 After numerous attempts of trying to fix the issuesI decided to just create another VM and restart the process of configuring  Wazuh on my network. I mad some changes this time around instead of using Ubuntu 22.04 I upgraded to 24.04. I also changed my GUI from XFCE to MATE, I felt its interface was better and already included platforms like firefox. It was a long journey but Wazuh manager has officially been set up. 
 
 <img width="644" height="761" alt="Screenshot 2026-07-09 035827" src="https://github.com/user-attachments/assets/2d2db229-e923-4d4d-b69c-a7296791f2be" />
+<img width="1330" height="855" alt="Screenshot 2026-07-09 043357" src="https://github.com/user-attachments/assets/760b5b06-afab-4db3-9eb1-00436eaa323f" />
+
 
 
 
